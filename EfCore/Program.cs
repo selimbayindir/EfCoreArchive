@@ -572,3 +572,5 @@ Context nesnesi içerisine oluşturulan model builder içerisinde bu işlemler y
                 //.HasForeignKey(c => c.DId); //Department Id DEĞİLDE DId benim fk m olacak dersen budur
  
  */
+
+Console.WriteLine("asdsadda");Console.WriteLine("asdsadda");Console.WriteLine("asdsadda");Console.WriteLine("asdsadda");Console.WriteLine("asdsadda");
