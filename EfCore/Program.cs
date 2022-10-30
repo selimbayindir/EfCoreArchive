@@ -573,4 +573,3 @@ Context nesnesi içerisine oluşturulan model builder içerisinde bu işlemler y
  
  */
 
-Console.WriteLine("asdsadda");Console.WriteLine("asdsadda");Console.WriteLine("asdsadda");Console.WriteLine("asdsadda");Console.WriteLine("asdsadda");
