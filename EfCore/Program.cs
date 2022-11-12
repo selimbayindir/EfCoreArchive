@@ -1,8 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using EfCore.DataAccess;
 using EfCore.Entities;
-using EntityFrameworkMethods.DataAccess;
-using EntityFrameworkMethods.Entities;
+
 using Microsoft.EntityFrameworkCore;
 
 Console.WriteLine("Entity Frameworks All Methods");
