@@ -11,7 +11,7 @@ using RelationShips.DataAccess;
 namespace RelationShips.Migrations
 {
     [DbContext(typeof(NContext))]
-    [Migration("20221112112506_mig1")]
+    [Migration("20221112191631_mig1")]
     partial class mig1
     {
         /// <inheritdoc />
@@ -32,9 +32,22 @@ namespace RelationShips.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<decimal>("PriceDiscount")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<decimal>("PriceTotal")
+                        .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
 
